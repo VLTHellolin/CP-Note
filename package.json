@@ -1,0 +1,10 @@
+{
+  "name": "CP-Note",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "install": "pip install mkdocs-material jieba",
+    "dev": "mkdocs serve",
+    "build": "mkdocs build"
+  }
+}
