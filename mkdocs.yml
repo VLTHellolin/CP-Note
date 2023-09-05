@@ -1,0 +1,171 @@
+# Site information
+site_name: Hellolin 的算法笔记
+site_description: Hellolin's CP-Note Project.
+site_author: hellolin
+strict: false
+
+# Navigation
+nav:
+  - 主页: index.md
+  - 算法笔记:
+    - algo/index.md
+    - 语言:
+      - algo/cpp/material.md
+      - 容器:
+        - algo/cpp/container/vector.md
+        - algo/cpp/container/vector_bool.md
+    - 数据结构:
+      - algo/ds/dsu.md
+      - algo/ds/st.md
+      - algo/ds/fenwick_tree.md
+      - algo/ds/bst.md
+      - algo/ds/balanced_tree.md
+  - Hellolin Library:
+    - library/index.md
+  - 题解存档:
+    - solutions/index.md
+    - solutions/abc312c.md
+    - solutions/arc164a.md
+    - solutions/abc309d.md
+    - solutions/abc309c.md
+    - solutions/cf195c.md
+    - solutions/abc306d.md
+    - solutions/cf1840g1.md
+    - solutions/abc302e.md
+    - solutions/abc302d.md
+    - solutions/abc302c.md
+    - solutions/abc301d.md
+    - solutions/abc301c.md
+    - solutions/abc299d.md
+    - solutions/cf1825b.md
+    - solutions/cf1829g.md
+    - solutions/abc194e.md
+    - solutions/at_tkppc6_2_b.md
+    - solutions/agc053b.md
+    - solutions/abc243e.md
+    - solutions/arc048b.md
+    - solutions/agc049b.md
+    - solutions/arc033b.md
+    - solutions/at_s8pc_6_b.md
+    - solutions/arc156a.md
+    - solutions/arc124b.md
+    - solutions/at_mujin_pc_2016_b.md
+    - solutions/abc176d.md
+    - solutions/cf1784a.md
+    - solutions/abc180d.md
+    - solutions/abc128e.md
+  - about.md
+
+# Theme configuration
+theme:
+  name: material
+  custom_dir: overrides
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-night
+        name: 切换至深色模式
+      primary: cyan
+      accent: indigo
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: 切换至浅色模式
+      primary: teal
+      accent: blue
+  language: zh
+  icon:
+    logo: material/book-education
+    repo: fontawesome/brands/github-alt
+  favicon: assets/images/favicon.png
+  features:
+    - navigation.tabs
+    - navigation.path
+    - navigation.indexes
+    - navigation.footer
+    - toc.follow
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    # - search.highlight
+    - search.share
+    - content.tabs.link
+    - content.code.copy
+    - content.code.annotate
+
+# Copyright
+copyright: The <b>CP-Note</b> project, copyright <a href="https://hellolin.cf/">hellolin</a> since 2023.
+
+# Repository
+repo_url: https://github.com/hellolin-oi/CP-Note
+repo_name: hellolin-oi/CP-Note
+
+# Customization
+extra:
+  consent:
+    title: 使用 Cookie
+    description: >-
+      我们使用 Cookies 来提升您的网站体验、统计您的访问和记住您的设置，您的 Cookies 可以帮助我们提升和改善我们的网站。Cookies 是可选的，您随时可以通过页脚处的 “管理 Cookies” 按钮来更改设置。
+    actions:
+      - accept
+      - reject
+      - manage
+  social:
+    - icon: fontawesome/brands/twitter
+      name: Twitter
+      link: https://twitter.com/hellolin_oi/
+    - icon: fontawesome/brands/github
+      name: GitHub
+      link: https://github.com/hellolin-oi/
+extra_javascript:
+  - static/js/katex.js 
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js  
+
+extra_css:
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
+
+
+# Extensions
+plugins:
+  # - social:
+  #     enabled: !ENV [CI, false]
+  #     cards: !ENV [CI, false]
+  #     cards_dir: assets/social
+  #     cards_layout_options:
+  #       font_family: Noto Sans SC
+  #     cards_layout_dir: layouts
+  #     debug: false
+  #     cache: true
+  #     cache_dir: .cache/plugins/social
+  - search:
+      separator: '[\s\u200b\-]'
+      lang: zh
+markdown_extensions:
+  - admonition
+  - attr_list
+  - footnotes
+  - md_in_html
+  - tables
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji 
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight:
+      linenums: true
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.keys
