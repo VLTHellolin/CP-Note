@@ -9,6 +9,8 @@ nav:
   - 主页: index.md
   - 算法笔记:
     - algo/index.md
+    - algo/round1.md
+    - algo/checker.md
     - 语言:
       - algo/cpp/material.md
       - 容器:
@@ -122,8 +124,8 @@ extra:
 extra_javascript:
   - static/js/katex.js 
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js  
-
 extra_css:
+  - static/css/admonitions.css
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
 
 
@@ -169,3 +171,5 @@ markdown_extensions:
   - pymdownx.snippets
   - pymdownx.superfences
   - pymdownx.keys
+  - pymdownx.tabbed:
+      alternate_style: true 
