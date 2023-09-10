@@ -26,6 +26,7 @@ nav:
     - library/index.md
   - 题解存档:
     - solutions/index.md
+    - solutions/p9626.md
     - solutions/abc312c.md
     - solutions/arc164a.md
     - solutions/abc309d.md
