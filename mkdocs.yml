@@ -9,8 +9,12 @@ nav:
   - 主页: index.md
   - 算法笔记:
     - algo/index.md
-    - algo/round1.md
     - algo/checker.md
+    - 初赛:
+      - algo/basic/index.md
+      - algo/basic/noi.md
+      - algo/basic/computer.md
+      - algo/basic/program.md
     - 语言:
       - algo/cpp/material.md
       - 容器:
