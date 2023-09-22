@@ -9,7 +9,6 @@ nav:
   - 主页: index.md
   - 算法笔记:
     - algo/index.md
-    - algo/checker.md
     - 初赛:
       - algo/basic/index.md
       - algo/basic/noi.md
@@ -26,6 +25,9 @@ nav:
       - algo/ds/fenwick_tree.md
       - algo/ds/bst.md
       - algo/ds/balanced_tree.md
+    - 其他:
+      - algo/misc/complexity.md
+      - algo/misc/checker.md
   - Hellolin Library:
     - library/index.md
   - 题解存档:

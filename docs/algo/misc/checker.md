@@ -183,6 +183,6 @@ int main() {
 
 可以看到拍得很成功。
 
-![](../static/img/checker-1.png)
+![](../../static/img/checker-1.png)
 
 停拍就关掉窗口，或者按 `^C`。
