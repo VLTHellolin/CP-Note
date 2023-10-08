@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # ABC312C Invisible Hand 题解
 
 [洛谷题面](https://www.luogu.com.cn/problem/AT_abc312_c) | [AtCoder 题面](https://atcoder.jp/contests/abc312/tasks/abc312_c)

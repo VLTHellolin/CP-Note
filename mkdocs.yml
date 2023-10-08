@@ -30,8 +30,13 @@ nav:
       - algo/misc/checker.md
   - Hellolin Library:
     - library/index.md
+    - hellolin:
+      - library/hellolin/distribution.hpp.md
   - 题解存档:
     - solutions/index.md
+    - solutions/abc323e.md
+    - solutions/abc323d.md
+    - solutions/abc323c.md
     - solutions/p9629.md
     - solutions/p9627.md
     - solutions/p9626.md
