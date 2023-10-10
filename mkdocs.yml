@@ -70,6 +70,8 @@ nav:
     - solutions/cf1784a.md
     - solutions/abc180d.md
     - solutions/abc128e.md
+  - 解题报告:
+    - report/index.md
   - about.md
 
 # Theme configuration
