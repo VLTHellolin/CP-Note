@@ -99,7 +99,7 @@ void solve() {
             if (p <= t) chmin(ans, f(p + 1));
         }
     }
-    std::cout << ans << newl;
+    std::cout << ans << '\n';
 }
 ```
 
