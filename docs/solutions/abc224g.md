@@ -31,12 +31,12 @@ comments: true
 ``` cpp
 using ld = long double;
 ld search(int l, int r) {
-    auto f = [&](ld l) {
-        return 1.0l * b * n / l + 1.0l * a * (l - 1) / 2.0l;
+    auto f = [&](const int l) {
+        return 1.0l * n * b / l + a * (l - 1) / 2.0l;
     };
     while (l < r) {
         int mid = (l + r) >> 1;
-        if (f(mid + 1) < f(mid))
+        if (f(t - mid + 2) < f(t - mid + 1))
             l = mid + 1;
         else
             r = mid;
