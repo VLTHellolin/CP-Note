@@ -34,6 +34,7 @@ nav:
       - library/hellolin/distribution.hpp.md
   - 题解存档:
     - solutions/index.md
+    - solutions/abc326g.md
     - solutions/abc224g.md
     - solutions/abc323e.md
     - solutions/abc323d.md
