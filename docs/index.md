@@ -4,7 +4,7 @@ comments: true
 
 # 这里是主页
 
-如你所见，这个网站用来存放 @[hellolin](https://hellolin.cf/) 的算法笔记、解题报告以及一些题解。
+如你所见，这个网站用来存放 @[hellolin](https://hellolin.top/) 的算法笔记、解题报告以及一些题解。
 
 个人博客上的题解将会迁移至此。博客上已有的题解不会删除，但不会再更新。
 
