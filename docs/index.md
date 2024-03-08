@@ -2,7 +2,11 @@
 comments: true
 ---
 
-# 这里是主页
+# 项目已停用
+
+此项目已经不再维护，其中的笔记、题解将会转移到博客上。后续的题解更新不会同步到这里。
+
+<!-- ---
 
 如你所见，这个网站用来存放 @[hellolin](https://hellolin.top/) 的算法笔记、解题报告以及一些题解。
 
@@ -17,4 +21,4 @@ comments: true
 [题解存档 :material-book-sync:](solutions/index.md){ .md-button }
 [解题报告 :material-run:](report/index.md){ .md-button }
 
-</center>
+</center> -->

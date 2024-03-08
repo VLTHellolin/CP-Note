@@ -1,37 +1,37 @@
 # Site information
-site_name: Hellolin 的算法笔记
+site_name: Hellolin 的算法笔记（Legacy）
 site_description: Hellolin's CP-Note Project.
 site_author: hellolin
 strict: false
 
 # Navigation
 nav:
-  - 主页: index.md
-  - 算法笔记:
-    - algo/index.md
-    - 初赛:
-      - algo/basic/index.md
-      - algo/basic/noi.md
-      - algo/basic/computer.md
-      - algo/basic/program.md
-    - 语言:
-      - algo/cpp/material.md
-      - 容器:
-        - algo/cpp/container/vector.md
-        - algo/cpp/container/vector_bool.md
-    - 数据结构:
-      - algo/ds/dsu.md
-      - algo/ds/st.md
-      - algo/ds/fenwick_tree.md
-      - algo/ds/bst.md
-      - algo/ds/balanced_tree.md
-    - 其他:
-      - algo/misc/complexity.md
-      - algo/misc/checker.md
-  - Hellolin Library:
-    - library/index.md
-    - hellolin:
-      - library/hellolin/distribution.hpp.md
+  - 项目已停用: index.md
+  # - 算法笔记:
+  #   - algo/index.md
+    # - 初赛:
+    #   - algo/basic/index.md
+    #   - algo/basic/noi.md
+    #   - algo/basic/computer.md
+    #   - algo/basic/program.md
+    # - 语言:
+    #   - algo/cpp/material.md
+    #   - 容器:
+    #     - algo/cpp/container/vector.md
+    #     - algo/cpp/container/vector_bool.md
+    # - 数据结构:
+    #   - algo/ds/dsu.md
+    #   - algo/ds/st.md
+    #   - algo/ds/fenwick_tree.md
+    #   - algo/ds/bst.md
+    #   - algo/ds/balanced_tree.md
+    # - 其他:
+    #   - algo/misc/complexity.md
+    #   - algo/misc/checker.md
+  # - Hellolin Library:
+  #   - library/index.md
+  #   - hellolin:
+  #     - library/hellolin/distribution.hpp.md
   - 题解存档:
     - solutions/index.md
     - solutions/p10058.md
@@ -75,9 +75,9 @@ nav:
     - solutions/cf1784a.md
     - solutions/abc180d.md
     - solutions/abc128e.md
-  - 解题报告:
-    - report/index.md
-  - about.md
+  # - 解题报告:
+  #   - report/index.md
+  # - about.md
 
 # Theme configuration
 theme:
